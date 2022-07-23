@@ -1,0 +1,130 @@
+00:00:00.006559 main     VirtualBox COM Server 6.1.34 r150636 win.amd64 (Mar 23 2022 00:36:21) release log
+00:00:00.006562 main     Log opened 2022-07-17T03:24:18.269783700Z
+00:00:00.006563 main     Build Type: release
+00:00:00.006572 main     OS Product: Windows 11
+00:00:00.006573 main     OS Release: 10.0.22000
+00:00:00.006574 main     OS Service Pack: 
+00:00:00.036648 main     DMI Product Name: ONYX V
+00:00:00.054352 main     DMI Product Version: Standard
+00:00:00.054375 main     Firmware type: UEFI
+00:00:00.054902 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.054940 main     Host RAM: 16129MB (15.7GB) total, 7221MB (7.0GB) available
+00:00:00.054949 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.054950 main     Process ID: 23924
+00:00:00.054951 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.140289          VirtualBox: object creation starts
+00:00:00.143267          Home directory: 'C:\Users\khooh\.VirtualBox'
+00:00:00.144004          Installed Drivers:
+00:00:00.155894            C:\WINDOWS\system32\DRIVERS\VBoxNetLwf.sys (Version: 6.1.34.636)
+00:00:00.157985            C:\WINDOWS\system32\DRIVERS\VBoxUSBMon.sys (Version: 6.1.34.636)
+00:00:00.159365            C:\WINDOWS\system32\DRIVERS\VBoxSup.sys (Version: 6.1.34.636)
+00:00:00.161471            C:\WINDOWS\system32\DRIVERS\VBoxNetAdp6.sys (Version: 6.1.34.636)
+00:00:00.182486          Loading settings file "C:\Users\khooh\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.194190          usbLibGetDevices: Starting USB device enumeration
+00:00:00.223285          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&232973a9&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 13
+00:00:00.223893          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&232973a9&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:00:00.226242          usbLibGetDevices: Found 2 USB devices, 0 captured
+00:00:00.228089          USB: Unknown USB device detected (idVendor: 0x04f2, idProduct: 0xb711)
+00:00:00.229656          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0026)
+00:00:00.372034          HostDnsMonitor: initializing
+00:00:00.378997          HostDnsMonitor: updating information
+00:00:00.380029          HostDnsMonitor: old information
+00:00:00.380031            no server entries
+00:00:00.380032            no domain set
+00:00:00.380033            no search string entries
+00:00:00.380034          HostDnsMonitor: new information
+00:00:00.380034            server 1: 192.168.0.1
+00:00:00.380036            no domain set
+00:00:00.380036            no search string entries
+00:00:00.431801          VD: VDInit finished with VINF_SUCCESS
+00:00:00.446986          Loading settings file "C:\Users\khooh\VirtualBox VMs\Ubuntu 22.04\Ubuntu 22.04.vbox" with version "1.16-windows"
+00:00:00.462859          Loading settings file "C:\Users\khooh\VirtualBox VMs\Debian 11\Debian 11.vbox" with version "1.16-windows"
+00:00:00.465896          VirtualBox: object created
+00:00:02.412915          Import settings with version "1.16-windows"
+00:00:02.413070          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named 'Kali-Linux-2022.2-virtualbox-amd64'}, preserve=false aResultDetail=0
+00:00:02.417092          ERROR [COM]: aRC=VBOX_E_FILE_ERROR (0x80bb0004) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Could not find file for the medium 'C:\Users\khooh\VirtualBox VMs\Kali-Linux-2022.2-virtualbox-amd64\Kali-Linux-2022.2-virtualbox-amd64-disk001.vmdk' (VERR_PATH_NOT_FOUND)}, preserve=false aResultDetail=-103
+00:00:02.822585          Saving settings file "C:\Users\khooh\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:02.837003          Saving settings file "C:\Users\khooh\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:19:06.164615 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:19:06.193088 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&232973a9&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 13
+00:19:06.193196 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&232973a9&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:19:06.193388 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:19:54.703201 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:19:54.720862 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&232973a9&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 13
+00:19:54.721101 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&232973a9&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:19:54.721544 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+01:12:32.558978 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:12:32.734964 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&232973a9&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 13
+01:12:32.735033 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&232973a9&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+01:12:32.735224 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+01:13:15.593959 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:13:15.610540 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&232973a9&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 13
+01:13:15.610739 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&232973a9&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+01:13:15.611143 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+01:18:05.601689 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:18:06.138756 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&232973a9&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 13
+01:18:06.138942 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&232973a9&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+01:18:06.139421 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+01:25:45.512605 createBase Saving settings file "C:\Users\khooh\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:25:46.088655          Saving settings file "C:\Users\khooh\VirtualBox VMs\Kali linux\Kali linux.vbox" with version "1.16-windows"
+01:25:46.100131          Saving settings file "C:\Users\khooh\VirtualBox VMs\Kali linux\Kali linux.vbox" with version "1.16-windows"
+01:25:46.106056          Saving settings file "C:\Users\khooh\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:25:46.129192          Saving settings file "C:\Users\khooh\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:25:46.137854          Saving settings file "C:\Users\khooh\VirtualBox VMs\Kali linux\Kali linux.vbox" with version "1.16-windows"
+01:26:02.829548          Launched VM: 64682320 pid: 12240 (0x2fd0) frontend: GUI/Qt name: Kali linux
+01:26:15.365921          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+01:26:15.845490          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+01:26:39.262717          Saving settings file "C:\Users\khooh\VirtualBox VMs\Kali linux\Kali linux.vbox" with version "1.16-windows"
+01:26:39.327424          Saving settings file "C:\Users\khooh\VirtualBox VMs\Kali linux\Kali linux.vbox" with version "1.16-windows"
+01:26:39.864170          Saving settings file "C:\Users\khooh\VirtualBox VMs\Kali linux\Kali linux.vbox" with version "1.16-windows"
+01:26:39.918970          Saving settings file "C:\Users\khooh\VirtualBox VMs\Kali linux\Kali linux.vbox" with version "1.16-windows"
+01:27:03.340930          Saving settings file "C:\Users\khooh\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:27:39.765285 createBase Saving settings file "C:\Users\khooh\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:27:40.329791          Saving settings file "C:\Users\khooh\VirtualBox VMs\Kali linux\Kali linux.vbox" with version "1.16-windows"
+01:27:40.336284          Saving settings file "C:\Users\khooh\VirtualBox VMs\Kali linux\Kali linux.vbox" with version "1.16-windows"
+01:27:40.342324          Saving settings file "C:\Users\khooh\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:27:40.352858          Saving settings file "C:\Users\khooh\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:27:40.362002          Saving settings file "C:\Users\khooh\VirtualBox VMs\Kali linux\Kali linux.vbox" with version "1.16-windows"
+03:27:49.546245 USBPROXY usbLibGetDevices: Starting USB device enumeration
+03:27:49.601002 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&232973a9&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 13
+03:27:49.601138 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&232973a9&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+03:27:49.601523 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+04:38:18.617410 USBPROXY usbLibGetDevices: Starting USB device enumeration
+04:38:18.619042 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&232973a9&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+04:38:18.619541 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+04:39:23.180116 USBPROXY usbLibGetDevices: Starting USB device enumeration
+04:39:23.197030 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&232973a9&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 13
+04:39:23.197197 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&232973a9&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+04:39:23.197705 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+04:39:23.197788 USBPROXY USB: Unknown USB device detected (idVendor: 0x04f2, idProduct: 0xb711)
+04:49:01.393220          Import settings with version "1.16-windows"
+04:49:01.393401          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named 'Kali-Linux-2022.2-virtualbox-amd64'}, preserve=false aResultDetail=0
+04:49:01.393772          ERROR [COM]: aRC=VBOX_E_FILE_ERROR (0x80bb0004) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Could not find file for the medium 'C:\Users\khooh\VirtualBox VMs\Kali-Linux-2022.2-virtualbox-amd64\Kali-Linux-2022.2-virtualbox-amd64-disk001.vmdk' (VERR_PATH_NOT_FOUND)}, preserve=false aResultDetail=-103
+04:54:47.221427 createImport Saving settings file "C:\Users\khooh\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+04:54:47.234269 ApplImp  Saving settings file "C:\Users\khooh\VirtualBox VMs\Kali-Linux-2022.2-virtualbox-amd64\Kali-Linux-2022.2-virtualbox-amd64.vbox" with version "1.16-windows"
+04:54:47.240704 ApplImp  Saving settings file "C:\Users\khooh\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+05:02:09.468623          Launched VM: 65057888 pid: 18568 (0x4888) frontend: GUI/Qt name: Kali-Linux-2022.2-virtualbox-amd64
+05:02:16.153659          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+05:02:16.603784          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+05:05:30.310363          Import settings with version "1.16-windows"
+05:05:30.310523          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named 'Kali-Linux-2022.2-virtualbox-amd64 1'}, preserve=false aResultDetail=0
+05:05:30.310770          ERROR [COM]: aRC=VBOX_E_FILE_ERROR (0x80bb0004) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Could not find file for the medium 'C:\Users\khooh\VirtualBox VMs\Kali-Linux-2022.2-virtualbox-amd64 1\Kali-Linux-2022.2-virtualbox-amd64-disk001.vmdk' (VERR_PATH_NOT_FOUND)}, preserve=false aResultDetail=-103
+05:20:02.717432          Saving settings file "C:\Users\khooh\VirtualBox VMs\Kali-Linux-2022.2-virtualbox-amd64\Kali-Linux-2022.2-virtualbox-amd64.vbox" with version "1.16-windows"
+05:20:02.895789          Saving settings file "C:\Users\khooh\VirtualBox VMs\Kali-Linux-2022.2-virtualbox-amd64\Kali-Linux-2022.2-virtualbox-amd64.vbox" with version "1.16-windows"
+05:20:03.794186          Saving settings file "C:\Users\khooh\VirtualBox VMs\Kali-Linux-2022.2-virtualbox-amd64\Kali-Linux-2022.2-virtualbox-amd64.vbox" with version "1.16-windows"
+05:20:10.259901          Saving settings file "C:\Users\khooh\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+05:20:11.714749          Saving settings file "C:\Users\khooh\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+05:20:11.728127          Saving settings file "C:\Users\khooh\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+05:20:13.277056          Saving settings file "C:\Users\khooh\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+05:20:13.298329          Saving settings file "C:\Users\khooh\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+05:20:15.842785          Saving settings file "C:\Users\khooh\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+05:20:15.853267          Saving settings file "C:\Users\khooh\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+05:20:21.422051 main     VirtualBox: object deletion starts
+05:20:21.422168 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\khooh\VirtualBox VMs\Ubuntu 22.04\Ubuntu 22.04.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+05:20:21.423308 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\khooh\VirtualBox VMs\Debian 11\Debian 11.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+05:20:21.424157 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\khooh\VirtualBox VMs\Kali linux\Kali linux.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+05:20:21.424781 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\khooh\VirtualBox VMs\Kali-Linux-2022.2-virtualbox-amd64\Kali-Linux-2022.2-virtualbox-amd64-disk001.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+05:20:21.440777 main     HostDnsMonitor: shutting down ...
+05:20:21.441070 main     HostDnsMonitor: shut down
+05:20:21.448200 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+05:20:21.448729 main     VirtualBox: object deleted
